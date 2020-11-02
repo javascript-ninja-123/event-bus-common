@@ -4,7 +4,7 @@ import {Subject} from "./subjects"
 
 
 export interface EntityUploadedEvent {
-    subject: Subject.EntityUpdated;
+    subject: Subject.EntityUploaded;
     data:{
         entityId: string;
         entityURL: string;
